@@ -1,0 +1,28 @@
+{
+    "$schema": "https://opencode.ai/config.json",
+    "provider": {
+      "KTDS Model": {
+        "api": "https://generativelanguage.googleapis.com",
+        "options": {
+            "baseURL": "https://generativelanguage.googleapis.com/v1beta/openai/",
+            "apiKey": "AIzaSyAjvi-s0iKtQoFoS7yNRXJ4zZDkQqv6XJ8"
+        },
+        "models": {
+          "gemini-3-flash-preview": {
+            "name": "Gemini 3 Flash"
+          }
+        }
+      },
+      "Local Provider": {
+        "api": "http://localhost:8000",
+        "options": {
+            "baseURL": "http://localhost:8000"
+        },
+        "models": {
+          "local-model": {
+            "name": "Local Model"
+          }
+        }
+      }
+    }
+  }

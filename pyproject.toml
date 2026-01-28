@@ -1,0 +1,13 @@
+[project]
+name = "opencode-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.1.2",
+    "litellm>=1.81.4",
+    "openai>=1.58.1",
+    "requests>=2.32.3",
+    "python-dotenv>=1.0.0",
+]
